@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.darkMode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.lightMode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #A9A9A9;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 25px;
+}
+
+header nav li a {
+    text-decoration: none;
+}
+
+.darkMode header nav li a {
+    color: #ffffff;
+}
+
+.lightMode header nav li a {
+    color: #000000;
+}
+
+header button {
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 75%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    margin-top: 5%;
+}
+
+main .container {
+    display: flex; 
+    align-items: center; 
+    align-items: flex-start;
+    justify-content: space-between; 
+
+}
+
+.apresentation {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentation h2 {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentation p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 27px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.buttonLinks {
+    margin-bottom: 20px;
+    /* width: 381px;
+    text-align: center;
+    border-radius: 8px; 
+    font-size: 24px;
+    padding: 20px 0; 
+    cursor: pointer; */
+    display: flex;
+    justify-content: center;
+    width: 381px;
+    text-align: center;
+    border-radius: 8px; 
+    /* font-family: "Montserrat", sans-serif; 
+    font-weight: 600;
+    font-size: 24px; */
+    padding: 21.5px 0; 
+    text-decoration: none;
+
+}
+
+.darkMode .buttonLinks {
+    border: 2px solid #ffffff;
+    color: #F6F6F6;
+}
+
+.lightMode .buttonLinks {
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.myPicture {
+    height: 550px;
+    width: 550px;
+}
+
