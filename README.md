@@ -39,5 +39,8 @@ Este projeto exibe um portfólio interativo para apresentar informações pessoa
 - CSS3
 - JavaScript
 
+## Acesso ao portfolio
+[Clique Aqui](https://portifolio-gabriel-miranda-mucabel-de-lima.vercel.app/)
+
 ## Autor
 **Gabriel Miranda Mucarbel de Lima**
