@@ -45,7 +45,12 @@ header button {
     cursor: pointer;
     margin: 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+header button:hover {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #DCDCDC;
 }
 
 .container {
@@ -78,13 +83,13 @@ main .container {
     flex-direction: column;
 }
 
-.apresentation h2 {
+.apresentation h2, .projectCesar h2{
     font-size: 36px;
     display: flex;
     justify-content: center;
 }
 
-.apresentation p {
+.apresentation p{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -123,7 +128,27 @@ main .container {
     font-size: 24px; */
     padding: 21.5px 0; 
     text-decoration: none;
+}
 
+#github img {
+    border-radius: 100%;
+}
+
+#github, #linkedin, #instagram {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonLinks img {
+    width: 40px;
+    height: 40px;
+}
+
+.buttonLinks:hover {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #A9A9A9;
 }
 
 .darkMode .buttonLinks {
@@ -141,3 +166,19 @@ main .container {
     width: 550px;
 }
 
+/* Segunda pagina: projetos */
+
+.projectCesar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectCesar p {
+    margin-top: 20px;
+}
+
+.projectImg {
+    height: 50%;
+    width: 45%;
+}
