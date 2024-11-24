@@ -66,7 +66,7 @@ header .container {
 }
 
 main {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 main .container {
@@ -83,7 +83,7 @@ main .container {
     flex-direction: column;
 }
 
-.apresentation h2, .projectCesar h2{
+.apresentation h2, .projectCesar h2, .projectFP h2, .projectCEP h2 {
     font-size: 36px;
     display: flex;
     justify-content: center;
@@ -168,17 +168,39 @@ main .container {
 
 /* Segunda pagina: projetos */
 
-.projectCesar {
+.projectCesar, .projectFP, .projectCEP {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.projectCesar p {
+.projectCesar p, .projectFP p, .projectCEP p {
     margin-top: 20px;
 }
 
 .projectImg {
     height: 50%;
     width: 45%;
+}
+
+#FPProject {
+    margin-top: 4%;
+}
+
+#FPProject .container {
+    gap: 4%;
+}
+
+.FPImg, .CEPImg {
+    height: 50%;
+    width: 50%;
+}
+
+#CEPProject {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#CEPProject .container {
+    gap: 4%;
 }
