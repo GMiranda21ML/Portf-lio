@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,12 +17,17 @@ body {
 }
 
 .lightMode {
-    background-color: #ffffff;
+    background-color: #FFFAFA;
     color: #000000;
 }
 
 header {
     background-color: #A9A9A9;
+}
+
+header h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px;
 }
 
 header nav li {
@@ -41,11 +49,12 @@ header nav li a {
 
 header button {
     padding: 10px 25px;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
     margin: 20px;
     border: none;
     border-radius: 10px;
+    font-family: "Noto Serif", serif;
 }
 
 header button:hover {
@@ -87,22 +96,22 @@ main .container {
     font-size: 36px;
     display: flex;
     justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
 }
 
-.apresentation p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+.apresentation p {
+    margin-top: 4%;
+    font-size: 16px;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    text-align: justify;
 }
 
 .links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 4%;
     gap: 27px;
 }
 
@@ -130,6 +139,9 @@ main .container {
     gap: 16px;
     align-items: center;
     text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Noto Serif", serif;
 }
 
 .buttonLinks img {
@@ -167,6 +179,10 @@ main .container {
 
 .projectCesar p, .projectFP p, .projectCEP p {
     margin-top: 20px;
+    text-align: justify;
+    font-family: "Noto Serif", serif;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .projectImg {

@@ -26,3 +26,18 @@ Este projeto exibe um portfólio interativo para apresentar informações pessoa
 - Função para alternar entre os modos claro e escuro:
     - Utiliza classList.toggle para mudar classes dinamicamente no elemento body.
     - Atualiza o texto do botão com textContent.
+
+
+## Funcionalidades Gerais
+- **Modo Claro/Escuro:** Alternância dinâmica para agir a partir do gosto do usuario
+- **Design Responsivos:** Layout adaptavel para diferentes tamanhos de tela
+- **Links Externos:** Integração com repositorios GitHub e redes sociais
+
+
+## Tecnologias Utilizadas
+- HTML5
+- CSS3
+- JavaScript
+
+## Autor
+**Gabriel Miranda Mucarbel de Lima**
